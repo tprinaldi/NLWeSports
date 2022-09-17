@@ -16,3 +16,5 @@ Projeto construído no evento Next Level Week da Rocketseat.
 ## Contato
 
 tprinaldi@gmail.com 
+
+## Quando precisar relembrar
