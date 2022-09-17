@@ -55,6 +55,7 @@ main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
+    text-align: center;
     
     display: grid;
     gap: 24px;
@@ -100,6 +101,8 @@ section p {
 }
 
 section ul {
+    width: fit-content;
+    margin: 0 auto;
     margin-top: 24px;
     list-style: none;
     display: flex;
