@@ -55,6 +55,7 @@ main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
+    text-align: center;
     
     display: grid;
     gap: 24px;
@@ -65,11 +66,11 @@ main section {
 }
 
 main section:nth-child(1) {
-animation-delay: .2s;
+    animation-delay: .2s;
 }
 
 main section:nth-child(2) {
-animation-delay: .4s;
+    animation-delay: .4s;
 }
 
 main section:nth-child(3) {
@@ -99,7 +100,9 @@ section p {
     color: #A1A1AA;
 }
 
-section ul {
+section ul {   
+    width: fit-content;
+    margin: 0 auto;
     margin-top: 24px;
     list-style: none;
     display: flex;
